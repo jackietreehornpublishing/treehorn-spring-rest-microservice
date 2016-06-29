@@ -1,5 +1,5 @@
 name: 
-  spring-rest-service
+  treehorn-spring-rest-service
 type:
   spring-boot
 
