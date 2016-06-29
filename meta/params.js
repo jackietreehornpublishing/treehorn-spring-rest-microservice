@@ -1,4 +1,5 @@
 function computed_parameters(m) {
-	var now = new Date();
-	return {creation_date: now.toISOString().split('T')[0]};
+	var date = new Date();
+	var dateString = date.toString(); 
+	return { creation_date: dateString };
 }
