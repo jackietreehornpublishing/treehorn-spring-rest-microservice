@@ -4,7 +4,7 @@ type:
   spring-boot
 
 description: 
-  Spring Boot REST microservice
+  Jackies Spring Boot REST microservice
   
 parameters:
   
