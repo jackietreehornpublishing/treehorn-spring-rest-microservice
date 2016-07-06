@@ -41,10 +41,10 @@ public class $containerless_web_integration_test_name {
 
     @Test
     public void canPerformSimpleGetRequestOnMicroservice() throws Exception {
-        mockMvc.perform(get("/"))
+        mockMvc.perform(get("/ping"))
                 .andExpect(status().isOk())
                 .andExpect(content().contentType("text/plain;charset=UTF-8"))
-                .andExpect(content().string("Hello Microservice World"))
+                .andExpect(content().string("pong"))
                 .andReturn();
     }
  }
